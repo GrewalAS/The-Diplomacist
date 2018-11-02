@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E64A2B394D60815FA8E9A1 /* Pods_The_Diplomacist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D7A37710F8FEA39155F617 /* Pods_The_Diplomacist.framework */; };
+		48BCFC71D227FABC78DDB134 /* Pods_The_DiplomacistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C838912A8A46B9DCF58E2645 /* Pods_The_DiplomacistTests.framework */; };
+		8603C71020B32F09364870BF /* Pods_The_DiplomacistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EED1AFDA87F23BA465F02D /* Pods_The_DiplomacistUITests.framework */; };
+		B70D22B71D41512700FC0A58 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D22B61D41512700FC0A58 /* Reachability.swift */; };
+		B70D22B91D42F13200FC0A58 /* PostsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D22B81D42F13200FC0A58 /* PostsMasterViewController.swift */; };
+		B71C22B01EEB794F00883B76 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C22AF1EEB794F00883B76 /* Parse.swift */; };
+		B724FEEA1EC0E989006C08C1 /* PostsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724FEE91EC0E989006C08C1 /* PostsDetailViewController.swift */; };
+		B73ABCA61EE7431B0025889E /* UIViewAnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73ABCA51EE7431B0025889E /* UIViewAnimationExtension.swift */; };
+		B73C44B31E086EF000CB2BEE /* UIImage+ResizeCropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73C44B21E086EF000CB2BEE /* UIImage+ResizeCropImage.swift */; };
+		B742CB851EBEEB9C006A1849 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B742CB841EBEEB9C006A1849 /* Colors.swift */; };
+		B75775AC1E09B8F500495E9B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75775AB1E09B8F500495E9B /* PostViewController.swift */; };
+		B7583EDA1D85E657005110D2 /* PostsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7583ED91D85E657005110D2 /* PostsTableCell.swift */; };
+		B790D41F1D41444200FEEC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790D41E1D41444200FEEC4C /* AppDelegate.swift */; };
+		B790D4241D41444200FEEC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B790D4221D41444200FEEC4C /* Main.storyboard */; };
+		B790D4261D41444200FEEC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B790D4251D41444200FEEC4C /* Assets.xcassets */; };
+		B790D4291D41444200FEEC4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B790D4271D41444200FEEC4C /* LaunchScreen.storyboard */; };
+		B790D4341D41444200FEEC4C /* The_DiplomacistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790D4331D41444200FEEC4C /* The_DiplomacistTests.swift */; };
+		B790D43F1D41444200FEEC4C /* The_DiplomacistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790D43E1D41444200FEEC4C /* The_DiplomacistUITests.swift */; };
+		B790D44D1D41447000FEEC4C /* WordPressAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790D44C1D41447000FEEC4C /* WordPressAPI.swift */; };
+		B790D44F1D4144A400FEEC4C /* PostsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790D44E1D4144A400FEEC4C /* PostsContainer.swift */; };
+		B7CD405F1EBEC51C00ED0F23 /* PostsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CD405E1EBEC51C00ED0F23 /* PostsSplitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B790D4301D41444200FEEC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B790D4131D41444200FEEC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B790D41A1D41444200FEEC4C;
+			remoteInfo = "The Diplomacist";
+		};
+		B790D43B1D41444200FEEC4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B790D4131D41444200FEEC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B790D41A1D41444200FEEC4C;
+			remoteInfo = "The Diplomacist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D7A37710F8FEA39155F617 /* Pods_The_Diplomacist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Diplomacist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FCF03D5AC1972F8FBFC071 /* Pods-The DiplomacistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The DiplomacistUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The DiplomacistUITests/Pods-The DiplomacistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62EB676310BED6A1AF58AF5B /* Pods-The DiplomacistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The DiplomacistUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The DiplomacistUITests/Pods-The DiplomacistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BE789F64880E5DC2FDEFD5D /* Pods-The DiplomacistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The DiplomacistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-The DiplomacistTests/Pods-The DiplomacistTests.release.xcconfig"; sourceTree = "<group>"; };
+		B70D22B61D41512700FC0A58 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B70D22B81D42F13200FC0A58 /* PostsMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsMasterViewController.swift; sourceTree = "<group>"; };
+		B71C22AF1EEB794F00883B76 /* Parse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		B724FEE91EC0E989006C08C1 /* PostsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsDetailViewController.swift; sourceTree = "<group>"; };
+		B73ABCA51EE7431B0025889E /* UIViewAnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnimationExtension.swift; sourceTree = "<group>"; };
+		B73C44B21E086EF000CB2BEE /* UIImage+ResizeCropImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+ResizeCropImage.swift"; sourceTree = "<group>"; };
+		B742CB841EBEEB9C006A1849 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B75775AB1E09B8F500495E9B /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B7583ED91D85E657005110D2 /* PostsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableCell.swift; sourceTree = "<group>"; };
+		B790D41B1D41444200FEEC4C /* The Diplomacist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Diplomacist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B790D41E1D41444200FEEC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B790D4231D41444200FEEC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B790D4251D41444200FEEC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B790D4281D41444200FEEC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B790D42A1D41444200FEEC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B790D42F1D41444200FEEC4C /* The DiplomacistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The DiplomacistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B790D4331D41444200FEEC4C /* The_DiplomacistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_DiplomacistTests.swift; sourceTree = "<group>"; };
+		B790D4351D41444200FEEC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B790D43A1D41444200FEEC4C /* The DiplomacistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The DiplomacistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B790D43E1D41444200FEEC4C /* The_DiplomacistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_DiplomacistUITests.swift; sourceTree = "<group>"; };
+		B790D4401D41444200FEEC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B790D44C1D41447000FEEC4C /* WordPressAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordPressAPI.swift; sourceTree = "<group>"; };
+		B790D44E1D4144A400FEEC4C /* PostsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsContainer.swift; sourceTree = "<group>"; };
+		B7CD405E1EBEC51C00ED0F23 /* PostsSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsSplitViewController.swift; sourceTree = "<group>"; };
+		C2ACF682A76F15D7B6ECD41F /* Pods-The DiplomacistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The DiplomacistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The DiplomacistTests/Pods-The DiplomacistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C838912A8A46B9DCF58E2645 /* Pods_The_DiplomacistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_DiplomacistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4D5FDCC41138B319A8CF22 /* Pods-The Diplomacist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Diplomacist.release.xcconfig"; path = "Pods/Target Support Files/Pods-The Diplomacist/Pods-The Diplomacist.release.xcconfig"; sourceTree = "<group>"; };
+		E9693584FB5CE90C1EEEFFB6 /* Pods-The Diplomacist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Diplomacist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The Diplomacist/Pods-The Diplomacist.debug.xcconfig"; sourceTree = "<group>"; };
+		F4EED1AFDA87F23BA465F02D /* Pods_The_DiplomacistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_DiplomacistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B790D4181D41444200FEEC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E64A2B394D60815FA8E9A1 /* Pods_The_Diplomacist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B790D42C1D41444200FEEC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BCFC71D227FABC78DDB134 /* Pods_The_DiplomacistTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B790D4371D41444200FEEC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8603C71020B32F09364870BF /* Pods_The_DiplomacistUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9710A1D847BB679FF3849234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9693584FB5CE90C1EEEFFB6 /* Pods-The Diplomacist.debug.xcconfig */,
+				CD4D5FDCC41138B319A8CF22 /* Pods-The Diplomacist.release.xcconfig */,
+				C2ACF682A76F15D7B6ECD41F /* Pods-The DiplomacistTests.debug.xcconfig */,
+				8BE789F64880E5DC2FDEFD5D /* Pods-The DiplomacistTests.release.xcconfig */,
+				30FCF03D5AC1972F8FBFC071 /* Pods-The DiplomacistUITests.debug.xcconfig */,
+				62EB676310BED6A1AF58AF5B /* Pods-The DiplomacistUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B790D4121D41444200FEEC4C = {
+			isa = PBXGroup;
+			children = (
+				B790D41D1D41444200FEEC4C /* The Diplomacist */,
+				B790D4321D41444200FEEC4C /* The DiplomacistTests */,
+				B790D43D1D41444200FEEC4C /* The DiplomacistUITests */,
+				B790D41C1D41444200FEEC4C /* Products */,
+				9710A1D847BB679FF3849234 /* Pods */,
+				D8C76B1D439A6E020EB3CC48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B790D41C1D41444200FEEC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B790D41B1D41444200FEEC4C /* The Diplomacist.app */,
+				B790D42F1D41444200FEEC4C /* The DiplomacistTests.xctest */,
+				B790D43A1D41444200FEEC4C /* The DiplomacistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B790D41D1D41444200FEEC4C /* The Diplomacist */ = {
+			isa = PBXGroup;
+			children = (
+				B7AD1E581E09C3CD0024E790 /* Controllers */,
+				B7AD1E571E09C3C20024E790 /* Views */,
+				B7AD1E491E09C3450024E790 /* Model */,
+				B7AD1E551E09C3810024E790 /* Others */,
+				B790D4221D41444200FEEC4C /* Main.storyboard */,
+				B790D4251D41444200FEEC4C /* Assets.xcassets */,
+				B790D4271D41444200FEEC4C /* LaunchScreen.storyboard */,
+				B790D42A1D41444200FEEC4C /* Info.plist */,
+			);
+			path = "The Diplomacist";
+			sourceTree = "<group>";
+		};
+		B790D4321D41444200FEEC4C /* The DiplomacistTests */ = {
+			isa = PBXGroup;
+			children = (
+				B790D4331D41444200FEEC4C /* The_DiplomacistTests.swift */,
+				B790D4351D41444200FEEC4C /* Info.plist */,
+			);
+			path = "The DiplomacistTests";
+			sourceTree = "<group>";
+		};
+		B790D43D1D41444200FEEC4C /* The DiplomacistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B790D43E1D41444200FEEC4C /* The_DiplomacistUITests.swift */,
+				B790D4401D41444200FEEC4C /* Info.plist */,
+			);
+			path = "The DiplomacistUITests";
+			sourceTree = "<group>";
+		};
+		B7AD1E481E09C3340024E790 /* Rechability */ = {
+			isa = PBXGroup;
+			children = (
+				B70D22B61D41512700FC0A58 /* Reachability.swift */,
+			);
+			name = Rechability;
+			sourceTree = "<group>";
+		};
+		B7AD1E491E09C3450024E790 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B790D44C1D41447000FEEC4C /* WordPressAPI.swift */,
+				B790D44E1D4144A400FEEC4C /* PostsContainer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B7AD1E551E09C3810024E790 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B73ABCA51EE7431B0025889E /* UIViewAnimationExtension.swift */,
+				B71C22AF1EEB794F00883B76 /* Parse.swift */,
+				B742CB841EBEEB9C006A1849 /* Colors.swift */,
+				B790D41E1D41444200FEEC4C /* AppDelegate.swift */,
+				B7AD1E481E09C3340024E790 /* Rechability */,
+				B7AD1E561E09C39B0024E790 /* NeverUsed */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		B7AD1E561E09C39B0024E790 /* NeverUsed */ = {
+			isa = PBXGroup;
+			children = (
+				B73C44B21E086EF000CB2BEE /* UIImage+ResizeCropImage.swift */,
+			);
+			name = NeverUsed;
+			sourceTree = "<group>";
+		};
+		B7AD1E571E09C3C20024E790 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7583ED91D85E657005110D2 /* PostsTableCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B7AD1E581E09C3CD0024E790 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7CD405E1EBEC51C00ED0F23 /* PostsSplitViewController.swift */,
+				B70D22B81D42F13200FC0A58 /* PostsMasterViewController.swift */,
+				B724FEE91EC0E989006C08C1 /* PostsDetailViewController.swift */,
+				B75775AB1E09B8F500495E9B /* PostViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D8C76B1D439A6E020EB3CC48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06D7A37710F8FEA39155F617 /* Pods_The_Diplomacist.framework */,
+				C838912A8A46B9DCF58E2645 /* Pods_The_DiplomacistTests.framework */,
+				F4EED1AFDA87F23BA465F02D /* Pods_The_DiplomacistUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B790D41A1D41444200FEEC4C /* The Diplomacist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B790D4431D41444200FEEC4C /* Build configuration list for PBXNativeTarget "The Diplomacist" */;
+			buildPhases = (
+				B8FAA03D4A04478C0DCDE106 /* [CP] Check Pods Manifest.lock */,
+				B790D4171D41444200FEEC4C /* Sources */,
+				B790D4181D41444200FEEC4C /* Frameworks */,
+				B790D4191D41444200FEEC4C /* Resources */,
+				D8798563621F92B75F84BE36 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Diplomacist";
+			productName = "The Diplomacist";
+			productReference = B790D41B1D41444200FEEC4C /* The Diplomacist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B790D42E1D41444200FEEC4C /* The DiplomacistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B790D4461D41444200FEEC4C /* Build configuration list for PBXNativeTarget "The DiplomacistTests" */;
+			buildPhases = (
+				B0CD2BD2EA5ED9E28B9EEFAB /* [CP] Check Pods Manifest.lock */,
+				B790D42B1D41444200FEEC4C /* Sources */,
+				B790D42C1D41444200FEEC4C /* Frameworks */,
+				B790D42D1D41444200FEEC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B790D4311D41444200FEEC4C /* PBXTargetDependency */,
+			);
+			name = "The DiplomacistTests";
+			productName = "The DiplomacistTests";
+			productReference = B790D42F1D41444200FEEC4C /* The DiplomacistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B790D4391D41444200FEEC4C /* The DiplomacistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B790D4491D41444200FEEC4C /* Build configuration list for PBXNativeTarget "The DiplomacistUITests" */;
+			buildPhases = (
+				992219F10ADE3B2EB4FAAE47 /* [CP] Check Pods Manifest.lock */,
+				B790D4361D41444200FEEC4C /* Sources */,
+				B790D4371D41444200FEEC4C /* Frameworks */,
+				B790D4381D41444200FEEC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B790D43C1D41444200FEEC4C /* PBXTargetDependency */,
+			);
+			name = "The DiplomacistUITests";
+			productName = "The DiplomacistUITests";
+			productReference = B790D43A1D41444200FEEC4C /* The DiplomacistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B790D4131D41444200FEEC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "The Diplomacist";
+				TargetAttributes = {
+					B790D41A1D41444200FEEC4C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WU9HRW5H43;
+						LastSwiftMigration = 1010;
+					};
+					B790D42E1D41444200FEEC4C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = B790D41A1D41444200FEEC4C;
+					};
+					B790D4391D41444200FEEC4C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = B790D41A1D41444200FEEC4C;
+					};
+				};
+			};
+			buildConfigurationList = B790D4161D41444200FEEC4C /* Build configuration list for PBXProject "The Diplomacist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B790D4121D41444200FEEC4C;
+			productRefGroup = B790D41C1D41444200FEEC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B790D41A1D41444200FEEC4C /* The Diplomacist */,
+				B790D42E1D41444200FEEC4C /* The DiplomacistTests */,
+				B790D4391D41444200FEEC4C /* The DiplomacistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B790D4191D41444200FEEC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790D4291D41444200FEEC4C /* LaunchScreen.storyboard in Resources */,
+				B790D4261D41444200FEEC4C /* Assets.xcassets in Resources */,
+				B790D4241D41444200FEEC4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B790D42D1D41444200FEEC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B790D4381D41444200FEEC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		992219F10ADE3B2EB4FAAE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The DiplomacistUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CD2BD2EA5ED9E28B9EEFAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The DiplomacistTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FAA03D4A04478C0DCDE106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Diplomacist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8798563621F92B75F84BE36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-The Diplomacist/Pods-The Diplomacist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The Diplomacist/Pods-The Diplomacist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B790D4171D41444200FEEC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75775AC1E09B8F500495E9B /* PostViewController.swift in Sources */,
+				B742CB851EBEEB9C006A1849 /* Colors.swift in Sources */,
+				B790D44F1D4144A400FEEC4C /* PostsContainer.swift in Sources */,
+				B790D41F1D41444200FEEC4C /* AppDelegate.swift in Sources */,
+				B7583EDA1D85E657005110D2 /* PostsTableCell.swift in Sources */,
+				B724FEEA1EC0E989006C08C1 /* PostsDetailViewController.swift in Sources */,
+				B73C44B31E086EF000CB2BEE /* UIImage+ResizeCropImage.swift in Sources */,
+				B70D22B71D41512700FC0A58 /* Reachability.swift in Sources */,
+				B7CD405F1EBEC51C00ED0F23 /* PostsSplitViewController.swift in Sources */,
+				B70D22B91D42F13200FC0A58 /* PostsMasterViewController.swift in Sources */,
+				B71C22B01EEB794F00883B76 /* Parse.swift in Sources */,
+				B790D44D1D41447000FEEC4C /* WordPressAPI.swift in Sources */,
+				B73ABCA61EE7431B0025889E /* UIViewAnimationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B790D42B1D41444200FEEC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790D4341D41444200FEEC4C /* The_DiplomacistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B790D4361D41444200FEEC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B790D43F1D41444200FEEC4C /* The_DiplomacistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B790D4311D41444200FEEC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B790D41A1D41444200FEEC4C /* The Diplomacist */;
+			targetProxy = B790D4301D41444200FEEC4C /* PBXContainerItemProxy */;
+		};
+		B790D43C1D41444200FEEC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B790D41A1D41444200FEEC4C /* The Diplomacist */;
+			targetProxy = B790D43B1D41444200FEEC4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B790D4221D41444200FEEC4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B790D4231D41444200FEEC4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B790D4271D41444200FEEC4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B790D4281D41444200FEEC4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B790D4411D41444200FEEC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B790D4421D41444200FEEC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B790D4441D41444200FEEC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9693584FB5CE90C1EEEFFB6 /* Pods-The Diplomacist.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "The Diplomacist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diplomacist.The-Diplomacist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B790D4451D41444200FEEC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4D5FDCC41138B319A8CF22 /* Pods-The Diplomacist.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "The Diplomacist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diplomacist.The-Diplomacist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B790D4471D41444200FEEC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2ACF682A76F15D7B6ECD41F /* Pods-The DiplomacistTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The DiplomacistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diplomacist.The-DiplomacistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Diplomacist.app/The Diplomacist";
+			};
+			name = Debug;
+		};
+		B790D4481D41444200FEEC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE789F64880E5DC2FDEFD5D /* Pods-The DiplomacistTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "The DiplomacistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diplomacist.The-DiplomacistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Diplomacist.app/The Diplomacist";
+			};
+			name = Release;
+		};
+		B790D44A1D41444200FEEC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FCF03D5AC1972F8FBFC071 /* Pods-The DiplomacistUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "The DiplomacistUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diplomacist.The-DiplomacistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "The Diplomacist";
+			};
+			name = Debug;
+		};
+		B790D44B1D41444200FEEC4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62EB676310BED6A1AF58AF5B /* Pods-The DiplomacistUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "The DiplomacistUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diplomacist.The-DiplomacistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "The Diplomacist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B790D4161D41444200FEEC4C /* Build configuration list for PBXProject "The Diplomacist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B790D4411D41444200FEEC4C /* Debug */,
+				B790D4421D41444200FEEC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B790D4431D41444200FEEC4C /* Build configuration list for PBXNativeTarget "The Diplomacist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B790D4441D41444200FEEC4C /* Debug */,
+				B790D4451D41444200FEEC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B790D4461D41444200FEEC4C /* Build configuration list for PBXNativeTarget "The DiplomacistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B790D4471D41444200FEEC4C /* Debug */,
+				B790D4481D41444200FEEC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B790D4491D41444200FEEC4C /* Build configuration list for PBXNativeTarget "The DiplomacistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B790D44A1D41444200FEEC4C /* Debug */,
+				B790D44B1D41444200FEEC4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B790D4131D41444200FEEC4C /* Project object */;
+}

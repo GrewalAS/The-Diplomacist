@@ -1,0 +1,6 @@
+framework module Pods_The_Diplomacist {
+  umbrella header "Pods-The Diplomacist-umbrella.h"
+
+  export *
+  module * { export * }
+}
