@@ -5,6 +5,17 @@ Created this app as a favour for a friend who was running https://diplomacist.co
 
 Currently, the app fetches all the articles on the home page of the website and displays them. You can also open an article to read it. Thats all the functionality the app has because developement was halted very early.
 
+## Screenshots:
+
+### Splash Screen
+![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/article.png)
+
+### Feed
+![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/main.png)
+
+### Article
+![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/article.png)
+
 ## To run:
 1. Open The Diplomacist.xcworkspace workspace with XCode.
 2. Select iOS version <= 11.4
