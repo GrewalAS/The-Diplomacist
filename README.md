@@ -8,7 +8,11 @@ Currently, the app fetches all the articles on the home page of the website and 
 ## Screenshots:
 
 ### Splash Screen
-![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/splash.png) ![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/main.png) ![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/article.png)
+![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/splash.png) 
+### Feed
+![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/main.png) 
+### Article
+![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/article.png)
 
 ## To run:
 1. Open The Diplomacist.xcworkspace workspace with XCode.
