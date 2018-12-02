@@ -14,7 +14,7 @@ Currently, the app fetches all the articles on the home page of the website and 
 ### Article
 ![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/article.png)
 
-## To run:
+## To build and run:
 1. Open The Diplomacist.xcworkspace workspace with XCode.
 2. Select iOS version <= 11.4
 3. Build and Run
