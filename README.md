@@ -7,7 +7,7 @@ Currently, the app fetches all the articles on the home page of the website and 
 
 ## Screenshots:
 
-### Splash Screen
+### Splash Screen, Website Feed and Article
 ![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/splash.png) ![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/main.png) ![alt text](https://raw.githubusercontent.com/GrewalAS/The-Diplomacist/master/article.png)
 
 ## To build and run:
